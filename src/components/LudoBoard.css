@@ -1,0 +1,77 @@
+section {
+    width: 100vw; height: 100vh;
+    display: flex;
+}
+.board {
+    background-color: black;
+    height: 100%; aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    border: 8px solid black;
+    gap: 2px;
+}
+.cell {
+    background-color: rgb(255, 255, 255);
+    display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    gap: 4px;
+}
+.savePt {
+    background-color: rgb(159, 159, 159);
+}
+
+.red { background-color: rgb(255, 121, 121); }
+.yello { background-color: rgb(255, 248, 106); }
+.green { background-color: rgb(114, 225, 114); }
+.blue { background-color: rgb(126, 176, 255); }
+
+span.red { background-color: rgb(231, 0, 0); }
+span.yello { background-color: rgb(199, 149, 0); }
+span.green { background-color: green; }
+span.blue { background-color: blue; }
+
+.homeSpace.red {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+}
+
+.homeSpace.yello {
+    grid-column: 10 / span 6;
+    grid-row: 1 / span 6;
+}
+
+.homeSpace.green {
+    grid-column: 1 / span 6;
+    grid-row: 10 / span 6;
+}
+
+.homeSpace.blue {
+    grid-column: 10 / span 6;
+    grid-row: 10 / span 6;
+}
+
+.winnerHome {
+    grid-column: 7 / span 3;
+    grid-row: 7 / span 3;
+    background-color: orange;
+}
+
+.homeSpace {
+    display: flex;
+    align-items: center; justify-content: center;
+    gap: 10px;
+}
+
+span {
+    width: 20px; height: 20px;
+}
+li { display: flex; }
+
+.selection  {
+    background-color: pink;
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    gap: 50px;
+}
