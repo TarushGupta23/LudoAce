@@ -1,3 +1,4 @@
+import { Card } from "./classes/card.js"
 import { Piece } from "./classes/piece.js"
 import { Team } from "./classes/team.js"
 
@@ -28,3 +29,96 @@ export const defaultTeams = [
         new Piece(null, 'e', 0), new Piece(null, 'e', 1), new Piece(null, 'e', 2), new Piece(null, 'e', 3)
     ])
 ]
+
+export const cards = {
+    'a': [
+        new Card('2', 2, 2, 'a'),
+        new Card('3', 3, 3, 'a'),
+        new Card('4', 4, 4, 'a'),
+        new Card('5', 5, 5, 'a'),
+        new Card('6', 6, 6, 'a'),
+        new Card('7', 7, 7, 'a'),
+        new Card('8', 8, 8, 'a'),
+        new Card('9', 9, 9, 'a'),
+        new Card('10', 10, 10, 'a'),
+        new Card('J', 0, 11, 'a'),
+        new Card('Q', 0, 12, 'a'),
+        new Card('K', 0, 13, 'a'),
+        new Card('A', 1, 14, 'a')
+    ],
+    'm': [
+        new Card('2', 2, 2, 'm'),
+        new Card('3', 3, 3, 'm'),
+        new Card('4', 4, 4, 'm'),
+        new Card('5', 5, 5, 'm'),
+        new Card('6', 6, 6, 'm'),
+        new Card('7', 7, 7, 'm'),
+        new Card('8', 8, 8, 'm'),
+        new Card('9', 9, 9, 'm'),
+        new Card('10', 10, 10, 'm'),
+        new Card('J', 0, 11, 'm'),
+        new Card('Q', 0, 12, 'm'),
+        new Card('K', 0, 13, 'm'),
+        new Card('A', 1, 14, 'm')
+    ],
+    'd': [
+        new Card('2', 2, 2, 'd'),
+        new Card('3', 3, 3, 'd'),
+        new Card('4', 4, 4, 'd'),
+        new Card('5', 5, 5, 'd'),
+        new Card('6', 6, 6, 'd'),
+        new Card('7', 7, 7, 'd'),
+        new Card('8', 8, 8, 'd'),
+        new Card('9', 9, 9, 'd'),
+        new Card('10', 10, 10, 'd'),
+        new Card('J', 0, 11, 'd'),
+        new Card('Q', 0, 12, 'd'),
+        new Card('K', 0, 13, 'd'),
+        new Card('A', 1, 14, 'd')
+    ],
+    'c': [
+        new Card('2', 2, 2, 'c'),
+        new Card('3', 3, 3, 'c'),
+        new Card('4', 4, 4, 'c'),
+        new Card('5', 5, 5, 'c'),
+        new Card('6', 6, 6, 'c'),
+        new Card('7', 7, 7, 'c'),
+        new Card('8', 8, 8, 'c'),
+        new Card('9', 9, 9, 'c'),
+        new Card('10', 10, 10, 'c'),
+        new Card('J', 0, 11, 'c'),
+        new Card('Q', 0, 12, 'c'),
+        new Card('K', 0, 13, 'c'),
+        new Card('A', 1, 14, 'c')
+    ],
+    'g': [
+        new Card('2', 2, 2, 'g'),
+        new Card('3', 3, 3, 'g'),
+        new Card('4', 4, 4, 'g'),
+        new Card('5', 5, 5, 'g'),
+        new Card('6', 6, 6, 'g'),
+        new Card('7', 7, 7, 'g'),
+        new Card('8', 8, 8, 'g'),
+        new Card('9', 9, 9, 'g'),
+        new Card('10', 10, 10, 'g'),
+        new Card('J', 0, 11, 'g'),
+        new Card('Q', 0, 12, 'g'),
+        new Card('K', 0, 13, 'g'),
+        new Card('A', 1, 14, 'g')
+    ],
+    'e': [
+        new Card('2', 2, 2, 'e'),
+        new Card('3', 3, 3, 'e'),
+        new Card('4', 4, 4, 'e'),
+        new Card('5', 5, 5, 'e'),
+        new Card('6', 6, 6, 'e'),
+        new Card('7', 7, 7, 'e'),
+        new Card('8', 8, 8, 'e'),
+        new Card('9', 9, 9, 'e'),
+        new Card('10', 10, 10, 'e'),
+        new Card('J', 0, 11, 'e'),
+        new Card('Q', 0, 12, 'e'),
+        new Card('K', 0, 13, 'e'),
+        new Card('A', 1, 14, 'e')
+    ]
+}
