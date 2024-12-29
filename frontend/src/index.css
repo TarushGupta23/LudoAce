@@ -1,0 +1,38 @@
+* {
+    padding: 0; margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-a: rgb(114, 225, 114); /* alien */
+    --bg-d: rgb(255, 121, 121); /* demons */
+    --bg-g: rgb(255, 248, 106); /* god */
+    --bg-c: rgb(126, 176, 255); /* mythical creatures*/
+    --bg-m: rgb(201, 201, 201); /* machine */
+    --bg-e: rgb(228, 136, 76); /* eye */
+    
+    --color-a: rgb(255, 0, 0);
+    --color-g: rgba(255, 242, 0, 0.842);
+    --color-c: rgb(7, 189, 7);
+    --color-d: rgb(0, 98, 255);
+    --color-m: rgb(161, 96, 39);
+    --color-e: rgb(125, 0, 228);
+
+    --bg-cell: white;
+    --bg-winner: goldenrod;
+    --bg-save: rgb(134, 134, 134);
+}
+
+/* .bg-a { background-color: var(--bg-a); }
+.bg-g { background-color: var(--bg-g); }
+.bg-d { background-color: var(--bg-d); }
+.bg-c { background-color: var(--bg-c); }
+.bg-m { background-color: var(--bg-m); }
+.bg-e { background-color: var(--bg-e); }
+
+.color-a { color: var(--color-a); }
+.color-g { color: var(--color-g); }
+.color-d { color: var(--color-d); }
+.color-c { color: var(--color-c); }
+.color-m { color: var(--color-m); }
+.color-e { color: var(--color-e); } */

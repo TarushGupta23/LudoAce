@@ -1,0 +1,86 @@
+section#page {
+    width: 100vw; height: 100vh;
+    display: flex;
+}
+
+/* ----- BOARD ----- */
+.board {
+    background-color: black;
+    height: 100%; aspect-ratio: 1;
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+    border: 8px solid black;
+    gap: 2px;
+}
+.cell {
+    background-color: var(--bg-cell);
+    display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    gap: 4px;
+}
+.save-point {
+    background-color: var(--bg-save);
+}
+
+/* ----- COLORS ----- */
+.bg-a { background-color: var(--bg-a); }
+.bg-g { background-color: var(--bg-g); }
+.bg-d { background-color: var(--bg-d); }
+.bg-c { background-color: var(--bg-c); }
+.bg-m { background-color: var(--bg-m); }
+.bg-e { background-color: var(--bg-e); }
+
+.color-a { color: var(--color-a); }
+.color-g { color: var(--color-g); }
+.color-d { color: var(--color-d); }
+.color-c { color: var(--color-c); }
+.color-m { color: var(--color-m); }
+.color-e { color: var(--color-e); }
+
+/* ----- HOMESPACE ----- */
+.homeSpace {
+    display: flex;
+    align-items: center; justify-content: center;
+    gap: 10px;
+}
+
+.homeSpace#h-1 {
+    grid-column: 1 / span 6;
+    grid-row: 1 / span 6;
+}
+
+.homeSpace#h-0 {
+    grid-column: 10 / span 6;
+    grid-row: 1 / span 6;
+}
+
+.homeSpace#h-2 {
+    grid-column: 1 / span 6;
+    grid-row: 10 / span 6;
+}
+
+.homeSpace#h-3 {
+    grid-column: 10 / span 6;
+    grid-row: 10 / span 6;
+}
+
+/* ----- WINNER HOMESPACE ----- */
+.winnerHome {
+    grid-column: 7 / span 3;
+    grid-row: 7 / span 3;
+    background-color: var(--bg-winner);
+}
+
+/* span {
+    width: 20px; height: 20px;
+} */
+/* li { display: flex; } */
+
+/* .selection  {
+    background-color: pink;
+    width: 100%;
+    display: flex; flex-wrap: wrap;
+    align-items: center; justify-content: center;
+    gap: 50px;
+} */
