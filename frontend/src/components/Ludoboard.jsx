@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./LudoBoard.css";
-import { Pawn } from "./Pawn";
+// import { Pawn } from "./Pawn";
 import { useState } from "react";
-import axios from "axios";
+// import axios from "axios";
 import { boardArray } from "../util";
 import { team1, team2, team3, team4, team5, team6 } from "../data.js";
 
